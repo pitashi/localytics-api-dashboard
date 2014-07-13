@@ -5,24 +5,46 @@
  */
 
 // YOU MUST SET EACH METRIC AS TRUE BEFORE YOU INCLUDE THIS FILE TO OUTPUT IT, OTHERWISE IT WILL SKIP THAT METRIC FOR PERFORMANCE PURPOSES //
-			// OUTPUT: users_today; -- unique users for today -- //
+			// OUTPUT: users_today; -- unique users for today, this is a system metric (also known as DAU)-- //
 			$run_users_today = true;
-			// OUTPUT: users_today; -- unique users for today -- //			
+			
+			// OUTPUT: users_yesterday; -- unique users for yesterday, this is system metric -- //			
 			$run_users_yesterday = true;
-			// OUTPUT: users_today; -- unique users for today -- //			
+			
+			// OUTPUT: average_users_last_30; -- average unique users for last 30 days, this is system metric -- //			
 			$run_average_users_last_30 = true;
-			// OUTPUT: users_today; -- unique users for today -- //			
+			
+			// OUTPUT: users_last_30; -- unique users for last 30, this is a system metric (also known as MAU)-- //			
 			$run_users_last_30 = true;
-			// OUTPUT: users_today; -- unique users for today -- //			
+			
+			// OUTPUT: average_session_length_yesterday; -- average session length for yesterday, this is a system metric -- //			
 			$run_average_session_length_yesterday = true;
+			
+			// OUTPUT: seconds_per_user_yesterday; -- total seconds in app per user yesterday, this is a system metric -- //			
 			$run_seconds_per_user_yesterday = true;
+			
+			// OUTPUT: average_session_length_today; -- average session length per user today, this is a system metric -- //			
 			$run_average_session_length_today = true;
+			
+			// OUTPUT: seconds_per_user_today; -- total seconds in app per user today, this is a system metric -- //			
 			$run_seconds_per_user_today = true;
+			
+			// OUTPUT: register_today; -- total registrations today, this is UNIQUE EVENT, YOU SHOULD SET YOUR RESPECTIVE EVENT -- //			
 			$run_register_today = true;
+			
+			// OUTPUT: register_yesterday; -- total registrations yesterday, this is UNIQUE EVENT, YOU SHOULD SET YOUR RESPECTIVE EVENT -- //			
 			$run_register_yesterday = true;
+			
+			// OUTPUT: register_last_30; -- total registrations last 30 days, this is UNIQUE EVENT, YOU SHOULD SET YOUR RESPECTIVE EVENT -- //			
 			$run_register_last_30 = true;
+			
+			// OUTPUT: sessions_today; -- total sessions today, this is a system metric -- //			
 			$run_sessions_today = true;
+			
+			// OUTPUT: messages_today; -- total messages today, this is UNIQUE EVENT, YOU SHOULD SET YOUR RESPECTIVE EVENT -- //			
 			$run_messages_today = true;
+			
+			// OUTPUT: messages_yesterday; -- total messages yesterday, this is UNIQUE EVENT, YOU SHOULD SET YOUR RESPECTIVE EVENT -- //			
 			$run_messages_yesterday = true;
 			
 			
